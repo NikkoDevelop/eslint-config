@@ -22,6 +22,7 @@
     "class-methods-use-this": "off",
     "function-paren-newline": "off",
     "import/no-default-export": "off",
+    "no-magic-numbers": "off",
     "brace-style": ["error", "1tbs"],
     "padding-line-between-statements": ["error", {
       "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"
