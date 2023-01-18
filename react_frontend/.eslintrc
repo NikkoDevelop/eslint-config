@@ -1,0 +1,65 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"@typescript-eslint",
+    "sonarjs"
+	],
+	"rules": {
+    "no-unused-vars": "warn",
+    "max-len": "off",
+    "no-empty-pattern": "off",
+    "import/no-cycle": "off",
+    "import/extensions": "off",
+    "no-param-reassign": "off",
+    "prettier/prettier": "off",
+    "prefer-rest-params": "off",
+    "prefer-destructuring": "off",
+    "no-underscore-dangle": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/prefer-spread": "off",
+    "no-use-before-define": "off",
+    "class-methods-use-this": "off",
+    "function-paren-newline": "off",
+    "import/no-default-export": "off",
+    "brace-style": ["error", "1tbs"],
+    "padding-line-between-statements": ["error", {
+      "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"
+    }, {
+      "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]
+    }],
+    "curly": ["error", "all"],
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "id-length": ["error", {
+      "min": 2,
+      "exceptions": ["i", "x", "y", "e", "t", "_"]
+    }],
+    "id-match": ["warn", "^(([A-Za-z0-9]+){2,})|([A-Z][A-Z_0-9]+)$", {
+      "properties": false,
+      "onlyDeclarations": true
+    }],
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }],
+		"semi": "off",
+    "quotes": ["error", "single"],
+		"@typescript-eslint/semi": [
+			"warn"
+		],
+		"@typescript-eslint/no-empty-interface": [
+			"error",
+			{
+				"allowSingleExtends": true
+			}
+		]
+	},
+	"extends": [
+    "@atomix/eslint-config",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react-hooks/recommended",
+    "plugin:sonarjs/recommended"
+	]
+}
