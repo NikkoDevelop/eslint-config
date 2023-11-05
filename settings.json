@@ -1,7 +1,20 @@
 {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.fixAll.stylelint": true,
-    },
-    "eslint.validate": ["javascript", "typescript"]
-   }
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.eol": "\n",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Bearded Theme Solarized Reversed",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.includeStrings": false,
+  "window.zoomLevel": 1
+}
