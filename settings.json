@@ -1,20 +1,33 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "eslint.validate": ["javascript", "typescript"],
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "files.eol": "\n",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Bearded Theme Solarized Reversed",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.enabled": false,
   "editor.unicodeHighlight.includeStrings": false,
-  "window.zoomLevel": 1
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 16,
+  "files.eol": "\n",
+  "workbench.colorTheme": "Bearded Theme Arc EolStorm"
 }
