@@ -21,10 +21,10 @@
       "@typescript-eslint"
   ],
   "rules": {
-      // * Отключение prettier
+      // * Disconnect Prettier
       "prettier/prettier": "off",
 
-      // * Отключение не используемых опций
+      // * Disconnect not used options
       "no-shadow": "off",
       "no-unused-vars": "off",
       "import/no-cycle": "off",
@@ -46,22 +46,22 @@
       "no-useless-constructor": "off",
       "sonarjs/no-duplicate-string": "off",
 
-      // * Формат названия переменной
+      // * The format of the name of the variable
       "unicorn/prefer-spread": "error",
 
-      // * Формат стиля фигурных скобок
+      // * Bracket style format
       "brace-style": [
           "error",
           "1tbs"
       ],
 
-      // * Формат стиля функций
+      // * The format of the style of functions
       "curly": [
           "error",
           "all"
       ],
 
-      // * Формат длины строки (120 символов)
+      // * Line length format (120 characters))
       "max-len": [
           "error",
           {
@@ -71,31 +71,31 @@
           }
       ],
 
-      // * Формат отступов (Пробел = 2)
+      // * Indent format (gap = 2)
       "indent": [
           "error",
           2
       ],
 
-      // * Форматирование конца строки по UNIX формату (LF)
+      // * Formatting the end of the line by UNIX format (LF)
       "linebreak-style": [
         "error",
         "unix"
       ],
 
-      // * Формат строк ('string')
+      // * The term format ('string')
       "quotes": [
           "error",
           "single"
       ],
 
-      // * Формат конца строки, установка точки с запятой (;)
+      // * Format of the end of the line, installation of a point with a comma (;)
       "semi": [
           "error",
           "always"
       ],
 
-      // * Формат установки пробела перед телом функции
+      // * The format of installation of a gap in front of the function of the function
       "space-before-function-paren": [
           "error",
           {
@@ -105,7 +105,7 @@
           }
       ],
 
-      // * Формат отступов между операторами
+      // * Indent format between operators
       "padding-line-between-statements": [
           "error",
           {
@@ -132,7 +132,7 @@
           }
       ],
 
-      // * Формат длины названия переменной
+      // * The format of the length of the name of the variable
       "id-length": [
           "error",
           {
@@ -152,7 +152,7 @@
           }
       ],
 
-      // * Формат названия переменной
+      // * The format of the name of the variable
       "id-match": [
           "warn",
           "^(([A-Za-z0-9]+){1,})|([A-Z][A-Z_0-9]+)$",
@@ -162,7 +162,7 @@
           }
       ],
 
-      // * Формат импортов в файле
+      // * Import format in the file
       "perfectionist/sort-classes": "off",
       "perfectionist/sort-enums": "off",
       "perfectionist/sort-interfaces": "off",
